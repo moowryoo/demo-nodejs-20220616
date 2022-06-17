@@ -5,5 +5,5 @@ test('Hello World API', async () => {
   const response = await request(app)
       .get('/api')
     expect(response.status).toEqual(200);
-    expect(response.text).toEqual('Welcome to TDDs World');
+    expect(response.text).toEqual('Welcome to TDDss World');
 });
